@@ -586,8 +586,7 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
+					is_authoritarian = yes
 				}
 			}
 		}
@@ -598,8 +597,7 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
+					is_egalitarian = yes
 				}
 			}
 		}
@@ -990,10 +988,8 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
+					is_authoritarian = yes
+					is_militarist = yes
 				}
 			}
 		}
@@ -1021,8 +1017,7 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
+					is_spiritualist = yes
 				}
 			}
 		}
@@ -1572,10 +1567,8 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_egalitarian = yes
+					is_xenophile = yes
 				}
 			}
 		}
@@ -1589,10 +1582,8 @@ country_event = {
 		trigger = {
 			owner = {
 				OR = {	
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
+					is_xenophobe = yes
+					is_militarist = yes
 				}
 			}
 		}

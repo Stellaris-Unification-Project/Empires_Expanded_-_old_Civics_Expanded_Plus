@@ -20,10 +20,8 @@ ap_arcane_tech = {
 	}
 	
 	potential = {
-		NOT = {
-			has_ascension_perk = ap_arcane_tech
-		}
 		NOR = {
+			has_ascension_perk = ap_arcane_tech
 			has_valid_civic = civic_fanatic_purifiers
 			has_valid_civic = civic_hive_devouring_swarm
 			has_valid_civic = civic_inwards_perfection
@@ -75,11 +73,7 @@ ap_united_galaxy = {
 		NOR = {
 			has_ascension_perk = ap_united_galaxy
 			has_ethic = ethic_gestalt_consciousness
-		}
-		NOR = {
-			has_valid_civic = civic_fanatic_purifiers
-			has_valid_civic = civic_hive_devouring_swarm
-			has_valid_civic = civic_machine_terminator
+			is_homicidal = yes
 		}
 	}
 
@@ -132,8 +126,6 @@ ap_one_with_nature = {
 		NOR = {
 			has_ascension_perk = ap_one_with_nature
 			has_origin = origin_arcology
-		}
-		NOR = {
 			has_valid_civic = civic_hive_devouring_swarm
 			has_valid_civic = civic_machine_terminator
 			has_authority = auth_corporate
@@ -218,18 +210,13 @@ ap_primitive_protection = {
 		}
 		custom_tooltip = {
 			fail_text = "must_be_xenophile"
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
+			is_xenophile = yes
 		}
 	}
 	
 	potential = {
-		NOT = {
-			has_ascension_perk = ap_primitive_protection
-		}
 		NOR = {
+			has_ascension_perk = ap_primitive_protection
 			has_valid_civic = civic_fanatic_purifiers
 			has_valid_civic = civic_hive_devouring_swarm
 			has_valid_civic = civic_inwards_perfection
@@ -263,10 +250,7 @@ ap_consecrated_worlds_nihilistic = {
 			has_ascension_perk = ap_consecrated_worlds_nihilistic
 			has_ascension_perk = ap_consecrated_worlds
 		}
-		OR = {
-			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist
-		}
+		is_spiritualist = yes
 	}
 
 	ai_weight = {

@@ -48,7 +48,7 @@ event = {
 						factor = 0
 						NOR = {
 							is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								OR = {
 									has_technology = "tech_psi_jump_drive_1"
@@ -59,14 +59,14 @@ event = {
 					}
 					modifier = {
 						factor = 4
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_technology = "tech_psi_jump_drive_1"
 						}
 					}
 					modifier = {
 						factor = 1.5
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_country_flag = completed_rogue_scientist
 						}
@@ -84,7 +84,7 @@ event = {
 					modifier = {
 						factor = 0
 						NOT = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								has_technology = tech_synthetic_workers
 								any_owned_pop = {
@@ -103,7 +103,7 @@ event = {
 					modifier = {
 						factor = 2
 						NOT = {
-							any_country = {
+							any_playable_country = {
 								is_country_type = default
 								has_technology = tech_synthetic_workers
 								pop_percentage = {
@@ -114,7 +114,7 @@ event = {
 								}
 							}
 						}
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_technology = tech_synthetic_workers
 							AND = {
@@ -135,7 +135,7 @@ event = {
 					}
 					modifier = {
 						factor = 4
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_technology = tech_synthetic_workers
 							pop_percentage = {
@@ -149,14 +149,14 @@ event = {
 					#MOD BEGINS
 					modifier = {
 						factor = 4 # High chances of Contingency
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_technology = tech_hyperintelligent_ai
 						}
 					}
 					modifier = {
 						factor = 7 # Very high chances of Contingency
-						any_country = {
+						any_playable_country = {
 							is_country_type = default
 							has_country_flag = master_ai_complete
 						}

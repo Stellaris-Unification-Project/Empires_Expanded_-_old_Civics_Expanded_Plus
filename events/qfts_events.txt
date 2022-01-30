@@ -65,7 +65,7 @@ ship_event = {
 	trigger = {
 		owner = { is_ai = no }
 		solar_system = { has_star_flag = seeder_system_1 }
-		solar_system = { NOT = { is_same_value = root.owner.capital_scope.solar_system } }
+		solar_system = { NOT = { is_same_empire = root.owner.capital_scope.solar_system } }
 		#FROM = { 
 		#	has_planet_flag = seeder_observation
 		#	is_star = no

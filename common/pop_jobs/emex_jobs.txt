@@ -36,10 +36,7 @@ xeno_arcane = {
 		weight = @specialist_job_weight
 		modifier = {
 			factor = 0
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 		modifier = {
 			factor = 0.2

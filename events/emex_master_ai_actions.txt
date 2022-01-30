@@ -56,8 +56,6 @@ fleet_event = {
 						NOR = {
 							is_planet_class = pc_infested
 							is_planet_class = pc_ai
-						}
-						NOR = {
 							has_planet_flag = tma_current_planet_target
 							is_same_value = event_target:tma_creator_final_stronghold
 						}
@@ -178,8 +176,6 @@ fleet_event = {
 						NOR = {
 							is_planet_class = pc_infested
 							is_planet_class = pc_ai
-						}
-						NOR = {
 							has_planet_flag = tma_current_planet_target
 							is_same_value = event_target:tma_creator_final_stronghold
 						}
@@ -296,8 +292,6 @@ fleet_event = {
 						NOR = {
 							is_planet_class = pc_infested
 							is_planet_class = pc_ai
-						}
-						NOR = {
 							has_planet_flag = tma_current_planet_target
 							is_same_value = event_target:tma_creator_final_stronghold
 						}
